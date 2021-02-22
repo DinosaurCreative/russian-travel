@@ -2,55 +2,57 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
   <title>Russian Travel</title>
 </head>
 <body>
   <div class="page">
     <header class="header">
-      <div class="logo logo_place_header"></div>
-      <ul class="lang-link">
-        <li><a href="">Ru</a></li>
-        <li><a href="">En</a></li>
+      <div class="header__logo"></div>
+      <ul class="header__lang-links">
+        <li><a class="header__lang-link" href="#">Ru</a></li>
+        <li><a class="header__lang-link" href="#">En</a></li>
       </ul>
-      <h1 class="header__title">Путешествия по России</h1>
-      <p class="header__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <img class="header__image" src="" alt="">
-      <p class="header__caption">ваша полка — верхняя</p>
     </header>
     <main class="content">
-      <section class="bashmakova">
-        <article class="column">
-          <h2 class="column__title">Чего мы там не видели?</h2>
-          <p class="column__main-text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол,
+      <section class="lead">
+        <h1 class="lead__title">Путешествия по России</h1>
+        <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+        <div class="lead__image" title="Девушка спящая в плацкарте"></div>
+        <p class="lead__caption">ваша полка — верхняя</p>
+      </section>
+      <section class="intro">
+        <article class="intro__article">
+          <h2 class="intro__title">Чего мы там не видели?</h2>
+          <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол,
           чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и
           суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и
           многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила
           их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места,
           достойные вашего отпуска.</p>
-          <ul class="column__additional-info">
-            <li>Часовых поясов 11</li>
-            <li>Объектов природного наследия ЮНЕСКО 12</li>
-            <li>Объектов культурного наследия ЮНЕСКО 16</li>
-            <li>Природных заповедников 105</li>
-            <li>Аэропортов 241</li>
+          <ul class="intro__list">
+            <li>Часовых поясов <span class="intro__list_font-style_normal">11</span></li>
+            <li>Объектов природного наследия ЮНЕСКО <span class="intro__list_font-style_normal">12</span></li>
+            <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list_font-style_normal">16</span></li>
+            <li>Природных заповедников <span class="intro__list_font-style_normal">105</span></li>
+            <li>Аэропортов <span class="intro__list_font-style_normal">241</span></li>
           </ul>
         </article>
       </section>
-      <section class="gallery">
-        <img class="gallery__item" src="" alt="">
-        <img class="gallery__item" src="" alt="">
-        <img class="gallery__item" src="" alt="">
-        <img class="gallery__item" src="" alt="">
-        <img class="gallery__item" src="" alt="">
-        <img class="gallery__item" src="" alt="">
-        <img class="gallery__item" src="" alt="">
-        <img class="gallery__item" src="" alt="">
-        <img class="gallery__item" src="" alt="">
-        <img class="gallery__item" src="" alt="">
-        <img class="gallery__item" src="" alt="">
-        <img class="gallery__item" src="" alt="">
+      <section class="photo-grid">
+        <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="Вид из окна поезда">
+        <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="">
+        <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="">
+        <img class="photo-grid__item" src="./images/photo-grid-sochi.jpg" alt="">
+        <img class="photo-grid__item" src="./images/photo-grid-arisa.jpg" alt="">
+        <img class="photo-grid__item" src="./images/photo-grid-baikal.jpg" alt="">
+        <img class="photo-grid__item" src="./images/photo-grid-elbrus.jpg" alt="">
+        <img class="photo-grid__item" src="./images/photo-grid-kondratiev.jpg" alt="">
+        <img class="photo-grid__item" src="./images/photo-grid-kamchatka-1.jpg" alt="">
+        <img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" alt="">
+        <img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="">
+        <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="">
       </section>
       <section class="places">
         <ul class="cards">
@@ -68,7 +70,7 @@
                 <p class="cards__paragraph">На этом Калининградская область не заканчивается. Для путешественника и исследователя там же по соседству — самая
                 западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних
                 мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.</p>
-              </article>              
+              </article>
             </div>
           </li>
           <li class=cards__item>
@@ -144,10 +146,9 @@
         </ul>
       </section>
       <section class="na-sobakah">
-        <h2 class="na-sobakah__title">До Байкала «на собаках»</h2>
-        <p class="na-sobakah__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+        <h2>До Байкала «на собаках»</h2>
+        <p>По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
       </section>
-
     </main>
     <footer class="footer">
       <div class="footer__columns">
