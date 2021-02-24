@@ -6,20 +6,20 @@
   <link rel="stylesheet" href="./pages/index.css">
   <title>Russian Travel</title>
 </head>
-<body>
-  <div class="page">
+<body class="page">
+  <div class="page__container">
     <header class="header">
       <div class="header__logo"></div>
       <ul class="header__lang-links">
         <li><a class="header__lang-link" href="#">Ru</a></li>
-        <li><a class="header__lang-link" href="#">En</a></li>
+        <li><a class="header__lang-link header__lang-link_position_last" href="#">En</a></li>
       </ul>
     </header>
     <main class="content">
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-        <div class="lead__image" title="Девушка спящая в плацкарте"></div>
+        <img src="./images/lead-polka.jpg" alt="Девушка спящая в плацкарте" class="lead__image">
         <p class="lead__caption">ваша полка — верхняя</p>
       </section>
       <section class="intro">
@@ -58,11 +58,11 @@
         <ul class="places__list">
           <li class="places__item">
             <h2 class="places__title">Куршская коса</h2>
-            <img class="places__image" src="./images/place-kosa.jpg" alt="Фото водоема">
             <div class="places__website">
               <p class="places__url-heading">URL</p>
               <a class="places__link" href="http://park-kosa.ru" target="_blanc">park-kosa.ru</a>
             </div>
+            <img class="places__image" src="./images/place-kosa.jpg" alt="Фото водоема">
             <article class="places__article">
               <p class="places__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта —
                 спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная
@@ -75,11 +75,11 @@
           </li>
           <li class="places__item">
             <h2 class="places__title">Кольский</h2>
-            <img class="places__image" src="./images/place-kolsky.jpg" alt=" Фото заснеженных вершин">
             <div class="places__website">
               <p class="places__url-heading">URL</p>
               <a class="places__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blanc">National Geographic</a>
             </div>
+            <img class="places__image" src="./images/place-kolsky.jpg" alt="Фото заснеженных вершин">
             <article class="places__article">
               <p class="places__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на
                 юг — тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
@@ -88,14 +88,14 @@
                 Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно
                 накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом в Мурманск.</p>
             </article>
-          </li>
+          </li>   
           <li class="places__item">
             <h2 class="places__title">Алтай</h2>
-            <img class="places__image" src="./images/place-altai.jpg" alt="Фото леса">
             <div class="places__website">
               <p class="places__url-heading">URL</p>
               <a class="places__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blanc">Facebook</a>
             </div>
+            <img class="places__image" src="./images/place-altai.jpg" alt="Фото леса">
             <article class="places__article">
               <p class="places__paragraph">Алтай — одно из красивейших мест в России. В первую очередь из-за гор: если ехать
                 вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. А если вы откроете в автомобиле окна,
@@ -107,11 +107,11 @@
           </li>
           <li class="places__item">
             <h2 class="places__title">Зимний Байкал</h2>
-            <img class="places__image" src="./images/place-winter-baikal.jpg" alt="Фото замерзшего водоема">
             <div class="places__website">
               <p class="places__url-heading">URL</p>
               <a class="places__link" href="https://vk.com/baikalmile" target="_blanc">https://vk.com/baikalmile</a>
             </div>
+            <img class="places__image" src="./images/place-winter-baikal.jpg" alt="Фото замерзшего водоема">
             <article class="places__article">
               <p class="places__paragraph">Всем известен Байкал как крупнейшее озеро в мире. Многие также знают, что это самый
                 большой источник пресной воды и одно из красивейших мест в России.</p>
@@ -123,11 +123,11 @@
           </li>
           <li class="places__item">
             <h2 class="places__title">Карелия</h2>
-            <img class="places__image" src="./images/place-karelia.jpg" alt="Фото реки">
             <div class="places__website">
               <p class="places__url-heading">URL</p>
               <a class="places__link" href="http://vodlozero.ru" target="_blanc">http://vodlozero.ru/</a>
             </div>
+            <img class="places__image" src="./images/place-karelia.jpg" alt="Фото реки">
             <article class="places__article">
               <p class="places__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
                 лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских
@@ -148,11 +148,11 @@
     <footer class="footer">
       <div class="footer__columns">
         <ul class="footer__links">
-          <li class="footer__link">Карта</li>
-          <li class="footer__link">Погода</li>
-          <li class="footer__link">Расписание</li>
-          <li class="footer__link">Календарь</li>
-          <li class="footer__link">Путишествия</li>
+          <li><a class="footer__link" href="https://yandex.ru/maps">Карта</a></li>
+          <li><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
+          <li><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
+          <li><a class="footer__link" href="https://kalendar.yandex.ru">Календарь</a></li>
+          <li><a class="footer__link footer__link_position_last" href="https://travel.yandex.ru">Путишествия</a></li>
         </ul>
         <p class="footer__author">&copy; 2021. Гималаев Герман</p>
       </div>
