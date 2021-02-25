@@ -6,6 +6,15 @@
   z-index: 1;
   text-align: center;
   align-self: center;
-  margin-top: 32px;
+  margin: 32px 16px 0 16px;
   max-width: 360px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .cover__subtitle { 
+    max-width: 288px;
+    font-size: 14px;
+    line-height: 16px;
+  }
 }

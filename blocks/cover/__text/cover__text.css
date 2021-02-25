@@ -1,0 +1,5 @@
+.cover__text {
+  /* align-self: center; */
+  display: flex;
+  flex-direction: column;
+}

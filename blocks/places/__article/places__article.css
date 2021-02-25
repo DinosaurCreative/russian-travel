@@ -1,3 +1,5 @@
-.places__article {
-
-}
+@media screen and (max-width: 767px) {
+  .places__article { 
+    margin: 0 16px;
+  }
+} 

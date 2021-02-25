@@ -1,6 +1,19 @@
 .footer {
-  margin: 92px 48px 0 48px;
-  padding-bottom: 24px;
+  margin: 92px 48px 24px 48px;
   height: 100%;
   border: orange 1px solid;  
+}
+
+@media screen and (max-width: 1023px) {
+  .footer { 
+     margin: 88px 24px 24px 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer { 
+    display: flex;
+    flex-direction: column;
+    margin: 64px auto 24px 16px;
+  }
 }
