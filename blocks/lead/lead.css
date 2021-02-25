@@ -3,20 +3,22 @@
   display: flex;
   flex-direction: column;
   max-width: 984px;
-  border: 1px yellow solid;
 }
-
 
 @media screen and (max-width: 1279px) {
   .lead { 
-    width: minmax(928px, 984px);
-    /* margin: 48px auto 0 auto; */
+    max-width: 928px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .lead { 
-    width: minmax(768px, 928px);;
-    /* width: 100%; */
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead { 
+    max-width: 320px;
   }
 }
