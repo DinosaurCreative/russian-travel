@@ -5,13 +5,13 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .header { 
+  .header {
     margin: 28px 24px 0 24px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .header { 
+  .header {
     margin: 16px 16px 0 16px;
   }
 }

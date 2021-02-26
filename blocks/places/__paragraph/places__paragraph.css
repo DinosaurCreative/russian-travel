@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .places__paragraph { 
+  .places__paragraph {
     font-size: 16px;
     line-height: 26.08px;
     margin-top: 25px;
@@ -19,7 +19,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .places__paragraph { 
+  .places__paragraph {
     margin: 25px 16px 0 16px;
   }
 }

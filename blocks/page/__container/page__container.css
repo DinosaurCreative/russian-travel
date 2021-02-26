@@ -5,19 +5,19 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .page__container { 
+  .page__container {
     min-width: 1024px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .page__container { 
+  .page__container {
     min-width: 768px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .page__container { 
+  .page__container {
     min-width: 320px;
   }
 }
