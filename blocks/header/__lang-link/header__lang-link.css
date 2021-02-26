@@ -7,11 +7,6 @@
   font-style: normal;
   text-align: right;
   margin-right: 18px;
-
-}
-
-.header__lang-link:hover {
-  border-bottom: 2px solid currentColor;
 }
 
 @media screen and (max-width: 767px) {

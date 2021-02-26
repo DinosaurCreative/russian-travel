@@ -32,7 +32,8 @@
     margin-top: 50px;
     min-width: 320px;
   }
+
   .places__item:nth-of-type(1) {
-  margin-top: 64px;
-}
+    margin-top: 64px;
+  }
 }

@@ -14,7 +14,7 @@
  
 .cover:before {
   content: '';
-  background-color:  #2a2c2f;
+  background-color: #2a2c2f;
   opacity: 0.3;
   position: absolute;
   top: 0;
