@@ -1,0 +1,8 @@
+.header__lang-line {
+  margin-right: 18px;
+}
+
+
+.header__lang-line:nth-last-child(1) {
+  margin-right: 0;
+}
